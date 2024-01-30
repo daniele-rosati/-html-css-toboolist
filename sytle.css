@@ -43,6 +43,10 @@ body{
 
 }
 
+h3{
+    padding: 10px;
+}
+
 .circle{
     display: inline-block;
     border: 1px solid black;
@@ -76,7 +80,7 @@ body{
 }
 
 .tag-white{
-
+    display: inline;
     background: lightblue;
     color: white;
     border-color: lightblue;
