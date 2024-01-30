@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+
+    background-color: white;
+
+}
+
+.rettangolo{
+    
+    width: 1366x;
+    height: 64px;
+    background-color: rgba(255,255,255,0.4);
+    position: absolute;
+
+}
+
+
+.app-title{
+
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+
+.app-logo{
+
+    vertical-align: middle;
+
+}
+
+/*--- fine logo ---*/
+
+
+.container{
+    margin: auto;
+    width: 800px;
+
+}
+
+.circle{
+    display: inline-block;
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 30px ;
+}
+
+.circle-green{
+    float: left;
+    color: green;
+    border-color: green;
+
+}
+
+.circle-red{
+    color: red;
+    border-color: red;
+    float: left;
+}
+
+.tag{
+
+    display: inline-block;
+    background-color: lightblue;
+    padding: 6px 10px ;
+    border-radius: 10px;
+
+}
+
+.tag-white{
+
+    background: lightblue;
+    color: white;
+    border-color: lightblue;
+
+}
+
+.tag-blue{
+    background: white;
+    color: grey;
+    border-color: black;
+   
+}
+
+.tag-editorial{
+    
+    background-color: lightblue;
+    color: white;
+    border: radius 10px;
+}
+
+.tag-goals{
+
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.tag-recruiting{
+
+    background-color: aqua;
+    color: white;
+    border: 10px;
+
+}
+
+.tag-mobile{
+
+    background-color: orange;
+    color: white;
+    border: 10px;
+
+}
+
+.tag-wewbsite{
+
+    background-color: deeppink;
+    color: white;
+    border: 10px;
+
+}
+
+.tag-sales{
+
+    background-color: greenyellow ;
+    color: white;
+    border: 10px;
+
+}
